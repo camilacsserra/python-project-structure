@@ -2,12 +2,19 @@
 name = "ageverifier"
 version = "0.1.0"
 description = "Checks if the user's age is greater or equal to 18 years old."
-authors = ["“camilacsserra” <“camilasserra@gmail.com”>"]
+authors = ["“Camila Serra” <“camilasserra@gmail.com”>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+blue = "^0.9.1"
+isort = "^5.12.0"
+mkdocs = "^1.5.3"
+pip-audit = "^2.6.1"
 
 [build-system]
 requires = ["poetry-core"]
