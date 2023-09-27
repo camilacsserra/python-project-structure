@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ageverifier"
+version = "0.1.0"
+description = "Checks if the user's age is greater or equal to 18 years old."
+authors = ["“camilacsserra” <“camilasserra@gmail.com”>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
